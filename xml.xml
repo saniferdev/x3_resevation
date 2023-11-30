@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wss="http://www.adonix.com/WSS" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Body>
+      <wss:runResponse soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <runReturn xsi:type="wss:CAdxResultXml">
+            <messages xsi:type="soapenc:Array" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" soapenc:arrayType="wss:CAdxMessage[0]" />
+            <resultXml xsi:type="xsd:string"><![CDATA[<?xml version="1.0" encoding="UTF-8"?><RESULT><GRP ID="IN"><FLD NAME="YSTOFCY" TYPE="Char">SAN01</FLD></GRP><TAB DIM="300" ID="IND" SIZE="2"><LIN NUM="1"><FLD NAME="YITMREF" TYPE="Char">10037008</FLD><FLD NAME="YSAU" TYPE="Char">M</FLD><FLD NAME="YQTY" TYPE="Decimal">10</FLD></LIN><LIN NUM="2"><FLD NAME="YITMREF" TYPE="Char">10037130</FLD><FLD NAME="YSAU" TYPE="Char">M</FLD><FLD NAME="YQTY" TYPE="Decimal">5</FLD></LIN></TAB><TAB DIM="300" ID="OUTD" SIZE="2"><LIN NUM="1"><FLD NAME="YQTYDISPO" TYPE="Decimal">0</FLD><FLD NAME="YTARIF" TYPE="Decimal">41500</FLD></LIN><LIN NUM="2"><FLD NAME="YQTYDISPO" TYPE="Decimal">0</FLD><FLD NAME="YTARIF" TYPE="Decimal">9800</FLD></LIN></TAB></RESULT>]]></resultXml>
+            <status xsi:type="xsd:int">1</status>
+            <technicalInfos xsi:type="wss:CAdxTechnicalInfos">
+               <busy xsi:type="xsd:boolean">false</busy>
+               <changeLanguage xsi:type="xsd:boolean">false</changeLanguage>
+               <changeUserId xsi:type="xsd:boolean">false</changeUserId>
+               <flushAdx xsi:type="xsd:boolean">false</flushAdx>
+               <loadWebsDuration xsi:type="xsd:double">0</loadWebsDuration>
+               <nbDistributionCycle xsi:type="xsd:int">-1</nbDistributionCycle>
+               <poolDistribDuration xsi:type="xsd:double">0</poolDistribDuration>
+               <poolEntryIdx xsi:type="xsd:int">15596</poolEntryIdx>
+               <poolExecDuration xsi:type="xsd:double">47</poolExecDuration>
+               <poolRequestDuration xsi:type="xsd:double">-1</poolRequestDuration>
+               <poolWaitDuration xsi:type="xsd:double">0</poolWaitDuration>
+               <processReport xsi:type="xsd:string" xsi:nil="true" />
+               <processReportSize xsi:type="xsd:int">-1</processReportSize>
+               <reloadWebs xsi:type="xsd:boolean">false</reloadWebs>
+               <resumitAfterDBOpen xsi:type="xsd:boolean">false</resumitAfterDBOpen>
+               <rowInDistribStack xsi:type="xsd:int" xsi:nil="true" />
+               <totalDuration xsi:type="xsd:double">63</totalDuration>
+               <traceRequest xsi:type="xsd:string" />
+               <traceRequestSize xsi:type="xsd:int">0</traceRequestSize>
+            </technicalInfos>
+         </runReturn>
+      </wss:runResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
